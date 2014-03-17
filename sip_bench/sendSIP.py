@@ -8,7 +8,7 @@ MAX = 10
 def sip( number , MAX):
 	for i in range(MAX):
 		i+=1	
-		os.system("sipsak -c sip:0604105000@Test -M -v -s sip:"+str(number)+"@127.0.0.1:5090 -B 'Koukou from SIPSAk'")
+		os.system("sipsak -c sip:0600000001@Test -M -v -s sip:"+str(number)+"@127.0.0.1:5090 -B 'Koukou from SIPSAk'")
 	print 'Sending to...'+str(number)
 	return
 
