@@ -1,0 +1,19 @@
+SMPPp emulate a ESME, used to send SMS via SMPP.
+
+##CONFIGURATION
+
+	Modify the login/password in the SmppP.c file.
+
+##INSTALL 
+
+	First, you need to install the "libsmpp34" library :
+> https://github.com/bjtpartners/libsmpp34
+	
+	After this installation, build this project :
+	
+    make
+
+##START 
+
+    ./smppp -f 0604125000 -t 0604125000 -m "Hello world" -S 192.168.10.1 -P 2775 -n 10
+

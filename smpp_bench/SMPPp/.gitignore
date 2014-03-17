@@ -1,0 +1,4 @@
+smppp
+*.o
+sip/*.o
+smpp/*.o
